@@ -1,0 +1,14 @@
+# This is needed to be done manualy
+
+# This is missing on Raspbian
+# Original error was: libf77blas.so.3: cannot open
+# shared object file: No such file or directory
+
+sudo apt-get install libatlas-base-dev
+
+pip3 install justpy~=0.1.5
+pip3 install pandas~=1.2.4
+pip3 install setuptools~=40.8.0
+pip3 install pyserial~=3.4
+pip3 install crcmod~=1.7
+
